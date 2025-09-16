@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.DS_Store
+
+# React build artifacts and test files
+build/
+coverage/
+*.test.js
+*.spec.js
+
+# Node.js specific
+npm-debug.log
