@@ -1,13 +1,15 @@
 import React from 'react';
-import './App.css'; // <-- New import
-import './index.css'; // Existing import
-import AuthForm from './components/AuthForm';
+import './App.css';
+import './index.css';
+// import AuthForm from './components/AuthForm';
+import AIGenerator from './components/AIGenerator';
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
       <h1>API Architect</h1>
-      <AuthForm />
+      <AIGenerator />
+      {/* <AuthForm /> <-- Uncomment this line */}
     </div>
   );
 }

@@ -5,17 +5,18 @@
   justify-content: center;
   text-align: center;
   padding: 40px 20px;
-  background: #1e293b; /* Slightly lighter dark background for the card effect */
+  background: #1e293b;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   max-width: 500px;
   width: 90%;
+  gap: 20px; /* <-- Add this line */
 }
 
 .App h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #64ffda; /* Bright accent color */
+  color: #64ffda;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
